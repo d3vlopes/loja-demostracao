@@ -63,43 +63,43 @@
           <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
             <div class="filter-col1 p-r-15 p-b-27">
               <div class="mtext-102 cl2 p-b-15">
-                Sort By
+                Ordenado por
               </div>
 
               <ul>
-                <li class="p-b-6">
+                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
                     Default
                   </a>
-                </li>
+                </li> 
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Popularity
+                    Mais Vendidos
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Average rating
+                    Maior Desconto
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
-                    Newness
+                    Lançamentos
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Price: Low to High
+                    Menor Preço
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Price: High to Low
+                    Maior Preço
                   </a>
                 </li>
               </ul>
@@ -107,43 +107,43 @@
 
             <div class="filter-col2 p-r-15 p-b-27">
               <div class="mtext-102 cl2 p-b-15">
-                Price
+                Preço
               </div>
 
               <ul>
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
-                    All
+                    Todos
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    $0.00 - $50.00
+                    $0,00 - $50,00
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    $50.00 - $100.00
+                    $50,00 - $100,00
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    $100.00 - $150.00
+                    $100,00 - $150,00
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    $150.00 - $200.00
+                    $150,00 - $200,00
                   </a>
                 </li>
 
                 <li class="p-b-6">
                   <a href="#" class="filter-link stext-106 trans-04">
-                    $200.00+
+                    +$200,00
                   </a>
                 </li>
               </ul>
@@ -151,7 +151,7 @@
 
             <div class="filter-col3 p-r-15 p-b-27">
               <div class="mtext-102 cl2 p-b-15">
-                Color
+                Cores
               </div>
 
               <ul>
@@ -161,7 +161,7 @@
                   </span>
 
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Black
+                    Preto
                   </a>
                 </li>
 
@@ -171,7 +171,7 @@
                   </span>
 
                   <a href="#" class="filter-link stext-106 trans-04 filter-link-active">
-                    Blue
+                    Azul
                   </a>
                 </li>
 
@@ -181,7 +181,7 @@
                   </span>
 
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Grey
+                    Cinza
                   </a>
                 </li>
 
@@ -191,7 +191,7 @@
                   </span>
 
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Green
+                   Verde
                   </a>
                 </li>
 
@@ -201,7 +201,7 @@
                   </span>
 
                   <a href="#" class="filter-link stext-106 trans-04">
-                    Red
+                    Vermelho
                   </a>
                 </li>
 
@@ -211,7 +211,7 @@
                   </span>
 
                   <a href="#" class="filter-link stext-106 trans-04">
-                    White
+                    Branco
                   </a>
                 </li>
               </ul>
@@ -223,25 +223,19 @@
               </div>
 
               <div class="flex-w p-t-4 m-r--5">
+
                 <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                  Fashion
+                  Teste
                 </a>
 
                 <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                  Lifestyle
+                  Teste
                 </a>
 
                 <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                  Denim
+                  Teste
                 </a>
-
-                <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                  Streetstyle
-                </a>
-
-                <a href="#" class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5">
-                  Crafts
-                </a>
+         
               </div>
             </div>
           </div>
