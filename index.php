@@ -86,7 +86,9 @@ $smarty->assign('PAG_BLOG', Rotas::pag_Blog());
  $smarty->assign('FACE', 'https://www.facebook.com/vanusaesportesregiao');
  $smarty->assign('INSTA', 'https://www.instagram.com/vanusaesportes');
  // $smarty->assign('TWITTER', $info->InfoTwitter());
-
+ $smarty->assign('PAG_CLIENTE_FAVORITOS', Rotas::pag_ClienteFavoritos());
+ $smarty->assign('PAG_CLIENTE_CONTA', Rotas::pag_ClienteConta());
+ $smarty->assign('PAG_CLIENTE_PEDIDOS', Rotas::pag_ClientePedidos());
 
  require './config/Pag.php';
 

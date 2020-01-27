@@ -303,47 +303,43 @@
 		<div class="sidebar-content flex-w w-full p-lr-65 js-pscroll">
 			<ul class="sidebar-link w-full">
 				<li class="p-b-13">
-					<a href="index.html" class="stext-102 cl2 hov-cl1 trans-04">
+					<a href="{$GET_HOME}" class="stext-102 cl2 hov-cl1 trans-04">
 						Home
-					</a>
-				</li>
-
-				<li class="p-b-13">
-					<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-						My Wishlist
 					</a>
 				</li>
 				{if $LOGADO == true}
 				<li class="p-b-13">
+					<a href="{$PAG_CLIENTE_FAVORITOS}" class="stext-102 cl2 hov-cl1 trans-04">
+						Meus Favoritos
+					</a>
+				</li>
+				
+				<li class="p-b-13">
 
-					<a href="{$PAG_CONTA}" class="stext-102 cl2 hov-cl1 trans-04">
+					<a href="{$PAG_CLIENTE_CONTA}" class="stext-102 cl2 hov-cl1 trans-04">
 						Minha Conta
 					</a>
 
 				</li>
+				
+				<li class="p-b-13">
+					<a href="{$PAG_CLIENTE_PEDIDOS}" class="stext-102 cl2 hov-cl1 trans-04">
+						Meus Pedidos
+					</a>
+				</li>
+
 				{/if}
-				<li class="p-b-13">
-					<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-						Track Oder
-					</a>
-				</li>
 
 				<li class="p-b-13">
 					<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-						Refunds
-					</a>
-				</li>
-
-				<li class="p-b-13">
-					<a href="#" class="stext-102 cl2 hov-cl1 trans-04">
-						Help & FAQs
+						Ajuda
 					</a>
 				</li>
 			</ul>
 
 			<div class="sidebar-gallery w-full p-tb-30">
 				<span class="mtext-101 cl5">
-					@ CozaStore
+					@ Seu ID
 				</span>
 
 				<div class="flex-w flex-sb p-t-36 gallery-lb">
@@ -413,7 +409,7 @@
 
 			<div class="sidebar-gallery w-full">
 				<span class="mtext-101 cl5">
-					About Us
+					Sobre Nós
 				</span>
 
 				<p class="stext-108 cl6 p-t-27">
