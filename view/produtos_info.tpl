@@ -67,9 +67,6 @@
 						<h1 class="mtext-105 cl2 js-name-detail">
 							{$P.pro_nome}
 						</h1>
-                        <p style="font-size:14px;" class="cl2 js-name-detail p-b-14">
-							Ref: {$P.pro_ref}
-						</p>
 
 						<span class="mtext-106 cl2">
 							R$ {$P.pro_valor}
@@ -134,11 +131,12 @@
 								<div class="size-204 respon6-next">
 									<div class="rs1-select2 bor8 bg0">
 										<select class="js-select2" name="time">
-											<option>Choose an option</option>
-											<option>Size S</option>
-											<option>Size M</option>
-											<option>Size L</option>
-											<option>Size XL</option>
+											<option>Selecione</option>
+											<option>Teste</option>
+											<option>Teste</option>
+											<option>Teste</option>
+											<option>Teste</option>
+											
 										</select>
 										<div class="dropDownSelect2"></div>
 									</div>
@@ -154,11 +152,12 @@
 								<div class="size-204 respon6-next">
 									<div class="rs1-select2 bor8 bg0">
 										<select class="js-select2" name="time">
-											<option>Choose an option</option>
-											<option>Red</option>
-											<option>Blue</option>
-											<option>White</option>
-											<option>Grey</option>
+											<option>Selecione</option>
+											<option>Teste</option>
+											<option>Teste</option>
+											<option>Teste</option>
+											<option>Teste</option>
+											
 										</select>
 										<div class="dropDownSelect2"></div>
 									</div>
@@ -218,9 +217,9 @@
 							<a class="nav-link" data-toggle="tab" href="#information" role="tab">Informações Adicionais</a>
 						</li>
 
-						<li class="nav-item p-b-10">
+						<!-- <li class="nav-item p-b-10">
 							<a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Comentários (1)</a>
-						</li>
+						</li> -->
 					</ul>
 
 					<!-- Tab panes -->
@@ -250,7 +249,7 @@
 
 										<li class="flex-w flex-t p-b-7">
 											<span class="stext-102 cl3 size-205">
-												Dimensions
+												Dimensões
 											</span>
 
 											<span class="stext-102 cl6 size-206">
@@ -258,7 +257,7 @@
 											</span>
 										</li>
 
-										<li class="flex-w flex-t p-b-7">
+										<!-- <li class="flex-w flex-t p-b-7">
 											<span class="stext-102 cl3 size-205">
 												Materials
 											</span>
@@ -286,7 +285,7 @@
 											<span class="stext-102 cl6 size-206">
 												XL, L, M, S
 											</span>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -385,11 +384,11 @@
 
 		<div class="bg6 flex-c-m flex-w size-302 margin-top-30 p-tb-15">
 			<span class="stext-107 cl6 p-lr-25">
-				SKU: JAK-01
+				REF: {$P.pro_ref}
 			</span>
 
 			<span class="stext-107 cl6 p-lr-25">
-				Categorias: Jacket, Men
+				Categorias: Teste, Teste
 			</span>
 		</div>
 	</section>
