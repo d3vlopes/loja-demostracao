@@ -3,7 +3,7 @@ Class Config{
 
 //INFORMAÇÕES DO SITE
 const SITE_URL = "http://localhost";
-const SITE_PASTA = "vanusa";
+const SITE_PASTA = "loja_demostracao";
 const SITE_NOME = "Vanusa Esportes";
 const SITE_EMAIL_ADM = "leandrinholopes069@gmail.com";
 const BD_LIMIT_POR_PAG = 12;
@@ -33,7 +33,7 @@ const GET_TEMA = "http://localhost/vanusa/view";
 const BD_HOST = "localhost",
       BD_USER = "root",
       BD_SENHA = "",
-      BD_BANCO = "vanuza",
+      BD_BANCO = "loja_demostracao",
       BD_PREFIX = "pes_";
 
 

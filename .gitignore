@@ -1,4 +1,6 @@
 lib/
+view/compile
+media/img/cache
 .vscode
 teste.php
 composerUpdate.bat
