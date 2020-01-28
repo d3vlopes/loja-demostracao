@@ -1,6 +1,16 @@
 <?php 
 
 $smarty = new Template();
+
+if(Login::LogadoADM()){
+	$smarty->assign('USER', $_SESSION['ADM']['user_nome']);
+	$smarty->assign('DATA', $_SESSION['ADM']['user_data']);
+	$smarty->assign('HORA', $_SESSION['ADM']['user_hora']);
+	$smarty->assign('SOBRENOME', $_SESSION['ADM']['user_sobrenome']);
+	$smarty->assign('STATUS', $_SESSION['ADM']['user_status']);
+}
+
+
 $pedidos = new Pedidos();
 
 $smarty->assign('SUCESSO', '');
@@ -8,7 +18,7 @@ $smarty->assign('ERRO', '');
 
 
 
-if(isset($_POST['ped_apagar'])){
+if(isset($_POST['ped_apagar']) && $_SESSION['ADM']['user_status'] == 'admin'){
   $ped_cod = $_POST['cod_pedido'];
   if($pedidos->Apagar($ped_cod)){
   	echo '<center><div class="col-md-9"><ul class="woo-sucesso margin-top" role="alert">
