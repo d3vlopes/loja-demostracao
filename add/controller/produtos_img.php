@@ -12,7 +12,7 @@ if(isset($_POST['pro_id']) && isset($_FILES['pro_img']['name'])){
       
       if(!empty($_FILES['pro_img']['name'])){
       
-        $upload->Upload(900, 'pro_img');
+        $upload->Upload(900, 'pro_img', 'img/');
         $pro_img = $upload->retorno;
 
         $gravar = new ProdutosImages();

@@ -36,7 +36,7 @@
 
 <label for="pro_img"><h5 class="text-center">Adicionar Imagem<br>
 <i class="fa fa-upload margin-top"></i></h5></label>
-<button class="btn btn-success "> Adicionar </button> 
+<button class="btn btn-success "> Enviar </button> 
 </div>  
 </form> 
     
