@@ -22,8 +22,9 @@ if(Login::Logado()){
    $smarty->assign('USER', $_SESSION['CLI']['cli_nome']);
    $smarty->assign('IMG', $_SESSION['CLI']['cli_img']);
    $smarty->assign('PAG_LOGOFF', Rotas::pag_Logoff());
+   $site_tema = Config::GET_TEMA;
    echo '<div id="preloader">
-         <img class="preloader" src="http://localhost/loja_adaptada/view/assets/images/gif/loading.gif" alt="">
+         <img class="preloader" src="'.$site_tema.'/assets/images/gif/loading.gif" alt="">
       </div>';
    Rotas::Redirecionar(1, Rotas::pag_ClienteConta());
 }
