@@ -69,8 +69,9 @@ if(!empty($_FILES['blog_img']['name'])){
 $blog->PrepararUptade($blog_titulo, $blog_descricao, $blog_img, $blog_categorias, $blog_status, $blog_url);
 
 if($blog->Alterar($id)){
+  $site_tema = Config::GET_TEMA;
   echo '<div id="preloader">
-         <img class="preloader" src="http://localhost/loja_adaptada/view/assets/images/gif/loading.gif" alt="">
+         <img class="preloader" src="'.$site_tema.'/assets/images/gif/loading.gif" alt="">
       </div>';
   header("Refresh: 1");
 }else{
