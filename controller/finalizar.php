@@ -54,7 +54,7 @@ $email = new EnviarEmail();
 
 $destinatarios = array(Config::SITE_EMAIL_ADM, $_SESSION['CLI']['cli_email']);
 
-$assunto = 'Pedido Vanuza - ' . Sistema::DataAtualBR();
+$assunto = 'Pedido Loja Demostração - ' . Sistema::DataAtualBR();
 
 $msg = $smarty->fetch('email_compra.tpl');
 
