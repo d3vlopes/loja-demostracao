@@ -55,8 +55,9 @@ if(!empty($_FILES['banner_img']['name'])){
 $banner->Preparar($banner_titulo, $banner_descricao, $banner_ordem, $banner_img);
 
 if($banner->Alterar($id)){
+$site_tema = Config::GET_TEMA;
   echo '<div id="preloader">
-         <img class="preloader" src="http://localhost/loja_adaptada/view/assets/images/gif/loading.gif" alt="">
+         <img class="preloader" src="'.$site_tema.'/assets/images/gif/loading.gif" alt="">
       </div>';
   header("Refresh: 1");
 }else{
