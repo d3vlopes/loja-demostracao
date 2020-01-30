@@ -2,6 +2,7 @@
 
 $smarty = new Template();
 
+
 if(Login::LogadoADM()){
 	$smarty->assign('USER', $_SESSION['ADM']['user_nome']);
 	$smarty->assign('DATA', $_SESSION['ADM']['user_data']);
@@ -57,8 +58,9 @@ $smarty->assign('PAGINAS', $pedidos->ShowPaginacao());
 if($pedidos->TotalDados() > 0){
 	$smarty->display('add_pedidos_clientes.tpl');
 }else{
+  $pag_clientes = Config::PAG_CLIENTES;
 	echo '<center><div class="col-9 alert alert-warning margin-top-30 margin-bottom">Nenhum pedido encontrado para este cliente</div>
-  <a href="http://localhost/loja_adaptada/add/clientes?p=1" class="btn bg-azul branco margin-bottom">Voltar</a>
+  <a href="'.$pag_clientes.'" class="btn bg-azul branco margin-bottom">Voltar</a>
 
   </center>';
 }
