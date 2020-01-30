@@ -95,8 +95,9 @@ if(!empty($_FILES['pro_img']['name'])){
 $gravar->Preparar($pro_nome, $pro_categoria, $pro_ativo, $pro_modelo, $pro_ref, $pro_valor, $pro_estoque, $pro_peso, $pro_altura, $pro_largura, $pro_comprimento, $pro_img, $pro_desc, $pro_slug, $pro_desconto);
 
 if($gravar->Alterar($id)){
+  $site_tema = Config::GET_TEMA;
   echo '<div id="preloader">
-         <img class="preloader" src="http://localhost/loja_adaptada/view/assets/images/gif/loading.gif" alt="">
+         <img class="preloader" src="'.$site_tema.'/assets/images/gif/loading.gif" alt="">
       </div>';
   header("Refresh: 1");
 }else{
