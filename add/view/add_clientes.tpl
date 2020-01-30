@@ -111,7 +111,7 @@
        <tr>
          <th class="text-center">Nome</th>
          <th class="text-center">Email</th>
-         <th class="text-center">Fone</th>
+         <th class="text-center">Celular</th>
          <th class="text-center">Data cad</th>
          <th class="text-center">Pedidos</th>
          <th class="text-center">Dados</th>
@@ -124,7 +124,7 @@
 
             <td class="text-left">{$C.cli_email}</td>
 
-            <td>{$C.cli_fone}</td>
+            <td>{$C.cli_celular}</td>
 
             <td>{$C.cli_data_cad}</td>
 
